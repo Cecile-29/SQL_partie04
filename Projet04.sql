@@ -26,4 +26,4 @@
     SELECT * FROM languages WHERE id IN (1,3,4); 
 
 --- Exercice 06 Dans la table frameworks, afficher les deux premières entrées de REACT.
-    SELECT * FROM `frameworks` WHERE `id` BETWEEN 1 AND 2;
+    SELECT * FROM `frameworks` WHERE framework = 'REACT' LIMIT 2;
